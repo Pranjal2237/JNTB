@@ -1,0 +1,21 @@
+.card{
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+}
+
+.card-heading{
+    text-align: center;
+    color: #565656;
+    padding: 1rem;
+}
+
+
+.card-image img{
+    width: 100%;
+}
+
+.card-content p{
+    font-size: 18px;
+    font-weight: 500;
+}

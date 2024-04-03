@@ -1,0 +1,36 @@
+.primary-image{
+    width: 100%;
+}
+
+.primary-image img{
+    width: 100%;
+}
+
+.primary-content{
+    margin:1.75rem 0;
+}
+
+.primary-content h1{
+    text-align: center;
+    color: var(--color-green);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.primary__product-container{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns:repeat(4,1fr);
+}
+
+@media screen and (max-width:767px) {
+    .primary__product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:480px) {
+    .primary__product-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}

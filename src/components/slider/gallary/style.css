@@ -1,0 +1,9 @@
+.slider-item{
+    width: 100px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.slider-item img{
+    width: 100%;
+}

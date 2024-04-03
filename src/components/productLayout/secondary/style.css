@@ -1,0 +1,39 @@
+.secondary-image{
+    width: 100%;
+}
+
+.secondary-image img{
+    width: 100%;
+}
+
+.secondary-content{
+    margin: 1.5rem 0;
+}
+
+.secondary-content h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-green);
+}
+
+.secondary-content p{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.secondary__product-container{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    margin:1.5rem 0;
+}
+
+.option-item{
+    padding: 0.75rem;
+    color: #fff;
+    background-color: var(--color-green);
+    border: 1px solid #ccc;
+    border-right: 5px solid #ccc;
+    cursor: pointer;
+}

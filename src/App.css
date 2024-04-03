@@ -1,0 +1,46 @@
+:root{
+    --color-green:#77AA43;
+}
+
+.page-padding{
+    padding:0 6rem;
+}
+
+.scroll{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    visibility: hidden;
+    background-color: var(--color-green);
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.3s linear; 
+}
+
+.scroll:hover{
+    background-color: #77aa43a4;
+}
+
+@media screen and (max-width:1023px) {
+    .page-padding{
+        padding: 0 4rem;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .page-padding{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .page-padding{
+        padding: 0 10px;
+    }
+}

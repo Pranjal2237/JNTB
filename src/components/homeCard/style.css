@@ -1,0 +1,53 @@
+.homecard{
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.homecard-image{
+    width: 100%;
+}
+
+.homecard-image img{
+    width: 100%;
+}
+
+.homecard-content{
+    padding: 2.5rem 1rem;
+    position: relative;
+}
+
+.homecard-content h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.homecard-content p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3b3b3b;
+    margin-top: 10px;
+}
+
+.abs-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.abs-btn:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,27 @@
+.service-image{
+    width: 100%;
+}
+
+.service-image img{
+    width: 100%;
+}
+
+.enquiry-content>h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-green);
+    margin: 1.5rem 0;
+}
+
+@media screen and (max-width:767px) {
+    .enquiry-content>div{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .enquiry-content>div{
+        padding: 0;
+    }
+}

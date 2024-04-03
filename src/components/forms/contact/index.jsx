@@ -83,7 +83,7 @@ const ContactForm = () => {
       onSubmit: (values) => {
         if (canSubmit === true) {
           emailjs
-            .sendForm(process.env.REACT_APP_SERVICE_ID,PROCESS.ENV.REACT_APP_CONTACT_TEMPLATE_ID, form.current, {
+            .sendForm(process.env.REACT_APP_SERVICE_ID,process.ENV.REACT_APP_CONTACT_TEMPLATE_ID, form.current, {
               publicKey: process.env.REACT_APP_PUBLIC_KEY,
             })
             .then(

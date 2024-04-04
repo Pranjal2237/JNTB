@@ -4,7 +4,7 @@ import { about } from '../../assets'
 
 const About = () => {
   return (
-    <main style={{marginBottom:'2.5rem'}}>
+    <main style={{marginBottom:'2.5rem',overflow:'hidden'}}>
       <div className='about-image'>
         <img src={about} alt='about' />
       </div>

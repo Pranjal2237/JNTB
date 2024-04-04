@@ -1,9 +1,11 @@
 .contact-image{
     width: 100%;
+    overflow: hidden;
 }
 
 .contact-image>img{
     width: 100%;
+    animation: toptobottom 1.5s;
 }
 
 .contact-heading{
@@ -12,11 +14,17 @@
     font-weight: 700;
     color: var(--color-green);
     margin: 1.5rem 0;
+    animation: visible 5s;
 }
 
 .contact-content{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+}
+
+.contact-details{
+    animation: lefttoright 1s;
 }
 
 .icon-background{
@@ -47,6 +55,7 @@
 
 .contact-form-container{
     flex-basis: 60%;
+    animation: righttoleft 1.5s;
 }
 
 @media screen and (max-width:767px) {

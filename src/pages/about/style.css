@@ -1,9 +1,11 @@
 .about-image{
     width: 100%;
+    overflow: hidden;
 }
 
 .about-image>img{
     width: 100%;
+    animation: toptobottom 1.5s;
 }
 
 .about-content>h3{
@@ -22,6 +24,12 @@
     line-height: 27px;
 }
 
+.about-content{
+    animation: visible 2.5s;
+    animation-delay: 1s;
+}
+
+
 @media screen and (max-width:767px) {
     .about-content>p{
         font-weight: 500;
@@ -30,5 +38,9 @@
 
     .about-content>h3{
         margin: 1rem 0;
+    }
+
+    .about-image>img{
+        transform: scale(1.2);
     }
 }

@@ -25,6 +25,51 @@
     background-color: #77aa43a4;
 }
 
+@keyframes lefttoright{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes righttoleft{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes bottomtotop {
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes toptobottom {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes visible {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width:1023px) {
     .page-padding{
         padding: 0 4rem;

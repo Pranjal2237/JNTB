@@ -1,9 +1,15 @@
 .service-image{
     width: 100%;
+    overflow: hidden;
 }
 
 .service-image img{
     width: 100%;
+    animation: toptobottom 1.5s;
+}
+
+.enquiry-content{
+    overflow: hidden;
 }
 
 .enquiry-content>h3{
@@ -12,11 +18,13 @@
     font-weight: 700;
     color: var(--color-green);
     margin: 1.5rem 0;
+    animation: visible 5s;
 }
 
 @media screen and (max-width:767px) {
     .enquiry-content>div{
         padding: 0;
+        animation: righttoleft 1.5s;
     }
 }
 

@@ -81,6 +81,7 @@ const ContactForm = () => {
       initialValues,
       validationSchema: ContactSchema,
       onSubmit: (values) => {
+        console.log(process.env.REACT_APP_CONTACT_TEMPLATE_ID)
         if (canSubmit === true) {
           emailjs
             .sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_CONTACT_TEMPLATE_ID, form.current, {

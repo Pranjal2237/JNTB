@@ -35,7 +35,9 @@ const Navbar = ({activeTitle,setActiveTitle}) => {
           <img src={Logo} alt="title" />
         </div>
         <div className="menubar page-padding" onClick={()=>{setMenuOpen(!menuOpen)}}>
-          Menu
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
         <ul className={menuOpen?'navbar-items open':'navbar-items'} onClick={()=>{setMenuOpen(false)}}>
           <Link to="/">

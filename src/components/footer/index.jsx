@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className='footer page-padding'>
       <div>
-      Copyrights @ 2017 <span style={{color:'var(--color-green)'}}>KANKAS IMPORT EXPORT</span>. All rights Reserved.
+      Copyrights @ 2025 <span style={{color:'var(--color-green)'}}>JNTB IMPORT EXPORT</span>. All rights Reserved.
       </div>
       <div>
-      Powered By Raga Designers
+      Powered By JNTB Pvt. Ltd. 
       </div>
     </div>
   )

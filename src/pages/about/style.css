@@ -1,11 +1,9 @@
 .about-image{
     width: 100%;
-    overflow: hidden;
 }
 
 .about-image>img{
     width: 100%;
-    animation: toptobottom 1.5s;
 }
 
 .about-content>h3{
@@ -22,11 +20,6 @@
     margin: 1rem 0;
     text-align: justify;
     line-height: 27px;
-}
-
-.about-content{
-    animation: visible 2.5s;
-    animation-delay: 1s;
 }
 
 

@@ -21,13 +21,13 @@ const Navbar = ({activeTitle,setActiveTitle}) => {
   return (
     <nav id="top" style={{ paddingTop: "10px" }}>
       <div className="navbar-contact">
-        <p>+(91)-98408 00004</p>
+        <p>+(91)-9289409329</p>
         <FontAwesomeIcon icon={faEnvelope} color="var(--color-green)" />
         <a
-          href="mailto:hr@jwtechno.com<"
+          href="mailto:info@jntbexim.com<"
           style={{ textDecoration: "none", color: "black" }}
         >
-          hr@jwtechno.com
+          info@jntbexim.com
         </a>
       </div>
       <div className="navbar-container page-padding">

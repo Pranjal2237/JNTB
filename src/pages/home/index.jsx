@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { mouce, quality, why, aboutLogo, facebook, twitter, slider2} from "../../assets";
+import { mouce, quality, why, aboutLogo, facebook, twitter, slider2,instagram} from "../../assets";
 import { Link} from "react-router-dom";
 import { productArr } from "../../constants";
 import { Homecard } from "../../components";
@@ -58,8 +58,8 @@ const Home = ({setActiveTitle}) => {
           </div>
           <div className="home_about-content">
             <h4>
-              Kankas Trades is a leading export company, established in the year
-              2014. The organization has been associated in the field of exports
+              JNTB EXPORT IMPORT is a leading export company, established in the year
+              2023. The organization has been associated in the field of exports
               ever since;
             </h4>
             <p>
@@ -103,18 +103,18 @@ const Home = ({setActiveTitle}) => {
         <div className="footer-container">
           <div className="footer-item">
             <FontAwesomeIcon icon={faPhone} style={{fontSize:'20px'}} />
-            <p>+91 98408 00004</p>
+            <p>+91 9289 409329</p>
           </div>
         <div className="footer-item">
           <FontAwesomeIcon icon={faEnvelope} style={{fontSize:'24px'}} />
-          <a href="mailto:kankasexports@gmail.com">kankasexports@gmail.com</a>
-          <a href="mailto:durgaprasad@kankasexports.com">durgaprasad@kankasexports.com</a>
+          <a href="mailto:info@jntbexim.com">info@jntbexim.com</a>
+          {/* <a href="mailto:durgaprasad@kankasexports.com">durgaprasad@kankasexports.com</a> */}
         </div>
         </div>
         <h3>FOLLOW US</h3>
         <div className="home_footer-media">
         <a><img src={facebook} alt="image"/></a>
-        <a><img src={twitter} alt="image" /></a>
+        <a><img src={instagram} alt="image" /></a>
         </div>
       </div>
     </div>

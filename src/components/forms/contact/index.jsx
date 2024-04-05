@@ -71,7 +71,7 @@ const initialValues = {
 
 const ContactForm = () => {
   const [code, setCode] = useState();
-  const [codeinput,setCodeInput]=useState(' ');
+  const [codeinput,setCodeInput]=useState('');
   const [check, setCheck] = useState();
   const [canSubmit, setCanSubmit] = useState(false);
   const[action,setAction]=useState('Submit')

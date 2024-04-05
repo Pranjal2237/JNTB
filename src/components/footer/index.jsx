@@ -8,7 +8,7 @@ const Footer = () => {
       Copyrights @ 2025 <span style={{color:'var(--color-green)'}}>JNTB IMPORT EXPORT</span>. All rights Reserved.
       </div>
       <div>
-      Powered By JNTB Pvt. Ltd. 
+      Powered By JONAREN TECHNOLOGY. 
       </div>
     </div>
   )

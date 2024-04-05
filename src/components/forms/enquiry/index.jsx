@@ -1,4 +1,4 @@
-import React,{useRef} from "react";
+import React,{useRef, useState} from "react";
 import "./style.css";
 import { useFormik } from "formik";
 import { EnquirySchema } from "../../../schemas";
@@ -15,19 +15,25 @@ const initialValues = {
 };
 
 const EnquiryForm = () => {
+  const[action,setAction]=useState('Submit Product Enquiry');
   const form=useRef();
   const { handleBlur, handleChange, handleSubmit, values, errors, touched } =
     useFormik({
       initialValues,
       validationSchema: EnquirySchema,
-      onSubmit: (values) => {
+      onSubmit: (values,{resetForm}) => {
+        setAction('Submitting Product Enquiry...')
         emailjs
-            .sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_ENQUIRY_TEMPLATE_ID, form.current, {
-              publicKey:process.env.REACT_APP_PUBLIC_KEY,
+            .sendForm('service_fjcmugf', 'template_tfkity1', form.current, {
+              publicKey:'COLQvudnCYH01N07-',
             })
             .then(
               () => {
-                console.log("SUCCESS!");
+                setAction('Submitted Product Enquiry')
+                setTimeout(()=>{
+                  setAction('Submit Product Enquiry')
+                },1000)
+                resetForm();
               },
               (error) => {
                 console.log("FAILED...", error.text);
@@ -199,7 +205,7 @@ const EnquiryForm = () => {
         </div>
       </div> */}
       <button className="btn" type="submit">
-        Submit Product Enquiry
+        {action}
       </button>
     </form>
   );

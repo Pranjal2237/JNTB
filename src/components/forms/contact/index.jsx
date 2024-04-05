@@ -67,29 +67,36 @@ const initialValues = {
   email: "",
   phone: "",
   message: "",
-  code: "",
 };
 
 const ContactForm = () => {
   const [code, setCode] = useState();
+  const [codeinput,setCodeInput]=useState(' ');
   const [check, setCheck] = useState();
   const [canSubmit, setCanSubmit] = useState(false);
+  const[action,setAction]=useState('Submit')
   const form = useRef();
 
   const { values, handleBlur, handleChange, handleSubmit, touched, errors } =
     useFormik({
       initialValues,
       validationSchema: ContactSchema,
-      onSubmit: (values) => {
-        console.log(process.env.REACT_APP_CONTACT_TEMPLATE_ID)
+      onSubmit: (values,{resetForm}) => {
+        
         if (canSubmit === true) {
+          setAction('Submitting...')
           emailjs
-            .sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_CONTACT_TEMPLATE_ID, form.current, {
-              publicKey: process.env.REACT_APP_PUBLIC_KEY,
+            .sendForm('service_fjcmugf','template_kfdqsha', form.current, {
+              publicKey: 'COLQvudnCYH01N07-',
             })
             .then(
               () => {
-                console.log("SUCCESS!");
+                setAction('Submitted')
+                setTimeout(()=>{
+                  setAction('Submit')
+                },1000)
+                setCodeInput(' ');
+                resetForm();
               },
               (error) => {
                 console.log("FAILED...", error.text);
@@ -105,6 +112,7 @@ const ContactForm = () => {
   };
 
   const handleCode = (e) => {
+    setCodeInput(e.target.value);
     if (e.target.value !== code) {
       setCanSubmit(false);
       setCheck("Incorrect Captcha");
@@ -114,6 +122,8 @@ const ContactForm = () => {
     }
     return e.target.value;
   };
+
+  console.log(codeinput)
 
   useEffect(() => {
     setCode(generateCode());
@@ -201,7 +211,8 @@ const ContactForm = () => {
             <input
               type="text"
               autoComplete="off"
-              name="code"
+              name="codeinput"
+              value={codeinput}
               onChange={(e) => {
                 handleCode(e);
               }}
@@ -211,7 +222,7 @@ const ContactForm = () => {
             </p>
           </div>
           <button className="btn" type="submit">
-            Submit
+            {action}
           </button>
         </div>
       </div>

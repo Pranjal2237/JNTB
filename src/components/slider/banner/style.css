@@ -27,7 +27,7 @@
 
   .example > .block {
     background-size:500% 500%;
-            animation:banner 20s infinite alternate ease;
+            animation:banner 25s infinite ease;
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
   }
@@ -39,142 +39,142 @@
   .example>.block:nth-of-type(2){
     
     background-position:calc(-1*100%) calc(0*100%) ;
-    animation-delay:0.2s;
+    animation-delay:0.1s;
   }
 
   .example>.block:nth-of-type(3){
     
     background-position: calc(-2*100%) calc(0*100%);
-    animation-delay:0.4s;
+    animation-delay:0.2s;
   }
   .example>.block:nth-of-type(4){
     
     background-position: calc(-3*100%) calc(0*100%);
-    animation-delay:0.6s;
+    animation-delay:0.3s;
   }
 
   .example>.block:nth-of-type(5){
     
     background-position:calc(-4*100%) calc(0*100%);
-    animation-delay:0.8s;
+    animation-delay:0.4s;
   }
 
   .example>.block:nth-of-type(6){
     
     background-position: calc(0*100%) calc(-1*100%);
-    animation-delay:0.6s;
+    animation-delay:0.3s;
   }
 
   .example>.block:nth-of-type(7){
     
     background-position:calc(-1*100%) calc(-1*100%);
-    animation-delay:0.8s;
+    animation-delay:0.4s;
   }
 
   .example>.block:nth-of-type(8){
     
     background-position:calc(-2*100%) calc(-1*100%);
-    animation-delay:1s; 
+    animation-delay:0.5s; 
   }
 
   .example>.block:nth-of-type(9){
     
     background-position:calc(-3*100%) calc(-1*100%);
-    animation-delay:1.2s;
+    animation-delay:0.6s;
   }
 
   .example>.block:nth-of-type(10){
     
     background-position:calc(-4*100%) calc(-1*100%);
-    animation-delay:1.4s;
+    animation-delay:0.7s;
   }
 
   .example>.block:nth-of-type(11){
     
     background-position:calc(-0*100%) calc(-2*100%);
-    animation-delay:1.2s;
+    animation-delay:0.6s;
   }
 
   .example>.block:nth-of-type(12){
     
     background-position:calc(-1*100%) calc(-2*100%);
-    animation-delay:1.4s;
+    animation-delay:0.7s;
   }
 
   .example>.block:nth-of-type(13){
     
     background-position:calc(-2*100%) calc(-2*100%);
-    animation-delay:1.6s;
+    animation-delay:0.8s;
   }
 
   .example>.block:nth-of-type(14){
     
     background-position:calc(-3*100%) calc(-2*100%);
-    animation-delay:1.8s;
+    animation-delay:0.9s;
   }
 
   .example>.block:nth-of-type(15){
     
     background-position:calc(-4*100%) calc(-2*100%);
-    animation-delay:2s;
+    animation-delay:1s;
   }
 
   .example>.block:nth-of-type(16){
     
     background-position:calc(-0*100%) calc(-3*100%);
-    animation-delay:1.8s;
+    animation-delay:0.9s;
   }
 
   .example>.block:nth-of-type(17){
     
     background-position:calc(-1*100%) calc(-3*100%);
-    animation-delay:2s;
+    animation-delay:1s;
   }
 
   .example>.block:nth-of-type(18){
     
     background-position:calc(-2*100%) calc(-3*100%);
-    animation-delay:2.2s;
+    animation-delay:1.1s;
   }
 
   .example>.block:nth-of-type(19){
     
     background-position:calc(-3*100%) calc(-3*100%);
-    animation-delay:2.4s;
+    animation-delay:1.2s;
   }
 
   .example>.block:nth-of-type(20){
     
     background-position:calc(-4*100%) calc(-3*100%);
-    animation-delay:2.6s;
+    animation-delay:1.3s;
   }
 
   .example>.block:nth-of-type(21){
     
     background-position:calc(-0*100%) calc(-4*100%);
-    animation-delay:2.4s;
+    animation-delay:1.4s;
   }
 
   .example>.block:nth-of-type(22){
     
     background-position:calc(-1*100%) calc(-4*100%);
-    animation-delay:2.6s;
+    animation-delay:1.5s;
   }
 
   .example>.block:nth-of-type(23){
     
     background-position:calc(-2*100%) calc(-4*100%);
-    animation-delay:2.8s;
+    animation-delay:1.6s;
   }
 
   .example>.block:nth-of-type(24){
     
     background-position:calc(-3*100%) calc(-4*100%);
-    animation-delay:3s;
+    animation-delay:1.7s;
   }
 
   .example>.block:nth-of-type(25){
     
     background-position:calc(-4*100%) calc(-4*100%);
-    animation-delay: 3.2s;
+    animation-delay: 1.8s;
   }

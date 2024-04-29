@@ -33,12 +33,12 @@
     padding: 0.5rem 0.75rem;
     font-weight: bold;
     cursor: pointer;
-    color: var(--color-green);
+    color: var(--color-blue);
 }
 
 .active{
-    border-top: 2px solid var(--color-green);
-    border-bottom: 2px solid var(--color-green); 
+    border-top: 2px solid var(--color-blue);
+    border-bottom: 2px solid var(--color-blue); 
 }
 
 .navbar-items>a{
@@ -46,7 +46,7 @@
 }
 
 .subNav{
-    border: 1px solid var(--color-green);
+    border: 1px solid var(--color-blue);
     list-style: none;
     position: absolute;
     width: 200px;
@@ -58,17 +58,17 @@
 
 .subNav>a{
     text-decoration: none;
-    color: var(--color-green);
+    color: var(--color-blue);
 }
 
 .subNav>a>li:hover{
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
     color: #fff;
 }
 
 .subNav>a>li{
     padding: 0.75rem;
-    border: 1px solid var(--color-green);
+    border: 1px solid var(--color-blue);
 }
 
 .navbar-items a{

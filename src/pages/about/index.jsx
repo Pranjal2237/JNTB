@@ -11,37 +11,21 @@ const About = () => {
       <div className="about-content page-padding">
         <h3>About us</h3>
         <p>
-          We are certified by SPICES BOARD OF INDIA to export Indian spices to
-          world-wide nations without compromising on the standards. Our
-          management strives to set benchmark for efficiency in executing spice
-          business. We sterilize spices to control micro contamination up-to the
-          required levels. We are assured about the prompt delivery and quality
-          of products.
+        Welcome to JNTB EXPORT IMPORT, your trusted partner for exporting premium Indian spices and food products worldwide. Certified by both the SPICES BOARD OF INDIA and the AGRICULTURAL AND PROCESSED FOOD PRODUCTS EXPORT DEVELOPMENT AUTHORITY, we ensure that our products meet the highest standards of quality and safety.
         </p>
         <p>
-          JNTB EXPORT IMPORT is also certified by “AGRICULTURAL AND PROCESSED
-          FOOD PRODUCTS EXPORT DEVELOPMENT AUTHORITY” of India for exporting
-          fresh fruits, fresh vegetables, Condiments and other Indian food
-          products all over the world.
+        At JNTB EXPORT IMPORT, we take pride in our commitment to excellence and efficiency in the spice business. Our state-of-the-art facilities and cutting-edge technologies allow us to sterilize spices and control micro-contamination to meet required levels, guaranteeing the utmost quality and freshness.
         </p>
         <p>
-          Our food products have satisfied customers all over the world with its
-          incredible quality, extraordinary taste and rich flavor. We are
-          engaged in supplying spices, honey, herbs, dry fruits, millets and
-          fresh fruits all under-one-roof. At the core of our success is our
-          superior infrastructure. Our company is equipped with
-          best-of-the-world technologies and has modern facilities to offer you
-          international quality standards across all of our product range.
+        From spices, honey, herbs, and dry fruits to millets and fresh fruits, we offer a diverse range of products all under one roof. Our dedication to perfection is reflected in the incredible quality, extraordinary taste, and rich flavor of our food products, which have delighted customers worldwide.
+
         </p>
         <p>
-          The name of JNTB EXPORT IMPORT is synonymous with "PERFECTION" in
-          every aspect of exporting Spices, Nut-products and ALL FOODSTUFFS from
-          India.
+        Driven by a passion for sustainable development, we strive to meet customer needs while ensuring the confidence and satisfaction of our buyers. Our mission is not just about making profits but about providing complete satisfaction to our customers through cost-effective solutions and superior products.
         </p>
         <p>
-          We are engaged in exporting a range of food and coir products across
-          the globe. By allowing sustainable development to drive our services,
-          we meet customer needs.
+        Thanks to our efficient and punctual services, we distinguish ourselves as the most reliable business partner in the competitive domain of import and export. As certified exporters in India, we guarantee that our spices and agro-based products conform to international standards, both in terms of physical and microbiological parameters.
+
         </p>
         <p>
           Our organization strives to achieve the confidence of our buyers, by
@@ -50,13 +34,7 @@ const About = () => {
           make profits in import and export business in Delhi/NCR.
         </p>
         <p>
-          We, JNTB EXPORT IMPORT believe in serving customers in the best
-          possible manner. Shipment of quality food products is our specialty.
-          With efficient and timely services, we emerge out as the most
-          dependable business partners in this competitive world. We are one of
-          the certified exporters in India to offer spices & agro based products
-          conforming to the physical and microbiological parameters as per the
-          international standards.
+        At JNTB EXPORT IMPORT, serving our customers in the best possible manner is not just a motto but a commitment we uphold in every aspect of our business. Join us in experiencing the perfection and reliability that define our brand.
         </p>
       </div>
     </main>

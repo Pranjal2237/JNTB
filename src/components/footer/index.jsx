@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer page-padding'>
       <div>
-      Copyrights @ 2025 <span style={{color:'var(--color-green)'}}>JNTB IMPORT EXPORT</span>. All rights Reserved.
+      Copyrights @ 2025 <span style={{color:'var(--color-blue)'}}>JNTB IMPORT EXPORT</span>. All rights Reserved.
       </div>
       <div>
       Powered By JONAREN TECHNOLOGY. 

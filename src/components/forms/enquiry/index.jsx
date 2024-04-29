@@ -162,7 +162,7 @@ const EnquiryForm = () => {
           />
           <p
             style={{
-              color: "var(--color-green)",
+              color: "var(--color-blue)",
               fontSize: "14px",
               fontWeight: "600",
             }}

@@ -128,21 +128,21 @@ export const productArr = [
     image: dry,
     heading: "Dry fruits-Figs",
     paragraph:
-      "Figs are the fruit of the ficus tree, which is part of the mulberry family.Figs have a unique, sweet taste,soft and chewy texture",
+      "Figs are the delightful fruits harvested from the ficus tree, belonging to the mulberry family. They boast a distinctive sweet flavor and offer a delightful soft and chewy texture.",
     link: "indian-spices",
   },
   {
     image: handicraft,
     heading: "Handicrafts",
     paragraph:
-      "We create quality products out of Bamboo tree, Palm tree and Coconut tree which are both functional and decorative in nature.",
+      "We craft high-quality products from Bamboo, Palm, and Coconut trees that serve both functional and decorative purposes.",
     link: "indian-herbs",
   },
   {
     image: veg,
     heading: "Fresh fruits-Bananas",
     paragraph:
-      "Having a banana at breakfast every day adds a nutrient to your body to support normal heart function.",
+      "Assimilating a banana into your daily breakfast routine provides essential nutrients that support the healthy functioning of your heart.",
     link: "indian-spices",
   },
 ];

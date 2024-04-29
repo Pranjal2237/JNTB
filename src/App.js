@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, About, Contact, Enquiry,Product } from "./pages";
+import { Home, About, Contact, Enquiry,Product, Blog } from "./pages";
 import { Navbar, Footer } from "./components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/enquiry" element={<Enquiry />} />
+          <Route path="/blog" element={<Blog />} />
           <Route
             path='/products/:product'
             element={

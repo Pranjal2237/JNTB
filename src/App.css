@@ -1,5 +1,6 @@
 :root{
     --color-green:#77AA43;
+    --color-blue:#2596be;
 }
 
 .page-padding{
@@ -11,7 +12,7 @@
     height: 35px;
     display: flex;
     visibility: hidden;
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
     border-radius: 0.5rem;
     align-items: center;
     justify-content: center;
@@ -22,7 +23,7 @@
 }
 
 .scroll:hover{
-    background-color: #77aa43a4;
+    background-color: #66b6d2;
 }
 
 @keyframes lefttoright{

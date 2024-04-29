@@ -5,7 +5,6 @@ import { porductLayout } from '../../constants';
 
 const Product = () => {
     const {product}=useParams();
-    console.log(product);
   return (
     <div>
         {porductLayout.map(({heading,picture,contentArray,link},index)=>(

@@ -1,9 +1,8 @@
 
-
 .home-description{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
     color: #fff;
@@ -14,12 +13,8 @@
 .description-item{
     display: flex;
     gap: 1rem;
-    /* animation: bottomtotop 1s; */
+    
 }
-
-/* .description-item:nth-child(2){
-    animation-delay: 0.5s;
-} */
 
 .description-image{
     width: 60px;
@@ -48,9 +43,8 @@
     align-items: center;
     cursor: pointer;
     font-size: 24px;
-    background-color: #A1C57D;
+    background-color: #2187ab;
     color: #fff;
-    /* animation: bottomtotop 1s 1s; */
 }
 
 .about-section{
@@ -76,24 +70,11 @@
     cursor: pointer;
 }
 
-.about-section .about-image>img{
-    /* animation: lefttoright 1s; */
-    /* transition: all 0.5s ease; */
-}
-
-/* .about-section .about-image>img:hover{
-    transform: scale(1.2);
-} */
-
-/* .home_about-content{
-    overflow: hidden;
-} */
 
 .home_about-content h4{
     line-height: 27px;
     font-size: 20px;
-    color: var(--color-green);
-    /* animation: righttoleft 1s; */
+    color: var(--color-blue);
 }
 
 .home_about-content>p{
@@ -103,14 +84,12 @@
     color: #565656;
     margin: 1rem 0;
     text-align: justify;
-    /* animation: righttoleft 1s;
-    animation-delay: 0.3s; */
 }
 
 .home_about-content>a>div{
     padding: 10px;
     border-radius: 5px;
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
     max-width: max-content;
     color: #fff;
 }
@@ -136,7 +115,7 @@
 }
 
 .home-footer{
-    background-color: var(--color-green);
+    background-color: var(--color-blue);
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -155,15 +134,12 @@
     flex-direction: column;
     justify-content: center;
     padding: 1.75rem;
-    background-color:  #A7D28B;
+    background-color:  #51abcb;
     border-radius: 5px;
     gap: 0.5rem;
-    /* animation: lefttoright 1s; */
+   
 }
 
-/* .footer-item:nth-child(2){
-    animation: righttoleft 1s;
-} */
 
 .footer-item a,.footer-item p{
     font-weight: bold;
@@ -179,14 +155,12 @@
     font-size: 24px;
     color: #fff;
     font-weight: 400;
-    /* animation: bottomtotop 1s; */
 }
 
 .home_footer-media{
     display: flex;
     justify-content: center;
     gap: 10px;
-    /* animation: bottomtorop 1s; */
 }
 
 .home-footer img{

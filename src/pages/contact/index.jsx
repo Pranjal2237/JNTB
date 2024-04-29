@@ -19,11 +19,11 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLocationDot} color='white' />
               </div>
             <div>
-              <p style={{color:'var(--color-green)',fontSize:'20px'}}>JNTB</p>
-              <p style={{color:'var(--color-green)',fontSize:'20px'}}>EXPORT IMPORT</p>
-              <p>#1210,Tower B,</p>
-              <p>ITHUM,Sector 62,</p>
-              <p>NOIDA-201301</p>
+              <p style={{color:'var(--color-blue)',fontSize:'20px'}}>JNTB</p>
+              <p style={{color:'var(--color-blue)',fontSize:'20px'}}>EXPORT IMPORT</p>
+              <p>#1210,Tower B,ITHUM,</p>
+              <p>Sector 62,NOIDA-201301</p>
+              <p></p>
             </div>
             </div>
             <div className='contact-address'>

@@ -24,8 +24,7 @@ const Home = ({setActiveTitle}) => {
           <div className="description-content">
             <h3>Quality</h3>
             <p>
-              Our product line with unparalleled quality is in accordance with
-              clients requirements and conforms to global standards
+            Our product line boasts top-notch quality that perfectly aligns with our clients' needs and complies with international standards.
             </p>
           </div>
         </div>
@@ -36,8 +35,7 @@ const Home = ({setActiveTitle}) => {
           <div className="description-content">
             <h3>Why us</h3>
             <p>
-              Hi-Tech standards, service reliability and commitment to
-              excellence make us a leader in export & import business
+            Our leadership in the export and import sector stems from our dedication to cutting-edge standards, unwavering service reliability, and a relentless pursuit of excellence.
             </p>
           </div>
         </div>
@@ -108,7 +106,6 @@ const Home = ({setActiveTitle}) => {
         <div className="footer-item">
           <FontAwesomeIcon icon={faEnvelope} style={{fontSize:'24px'}} />
           <a href="mailto:info@jntbexim.com">info@jntbexim.com</a>
-          {/* <a href="mailto:durgaprasad@kankasexports.com">durgaprasad@kankasexports.com</a> */}
         </div>
         </div>
         <h3>FOLLOW US</h3>

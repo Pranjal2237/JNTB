@@ -22,7 +22,7 @@ const Navbar = ({activeTitle,setActiveTitle}) => {
     <nav id="top" style={{ paddingTop: "10px" }}>
       <div className="navbar-contact">
         <p>+(91)-9289409329</p>
-        <FontAwesomeIcon icon={faEnvelope} color="var(--color-green)" />
+        <FontAwesomeIcon icon={faEnvelope} color="var(--color-blue)" />
         <a
           href="mailto:info@jntbexim.com<"
           style={{ textDecoration: "none", color: "black" }}
@@ -82,7 +82,7 @@ const Navbar = ({activeTitle,setActiveTitle}) => {
                 }
               </ul>
             </li>
-          {/* <Link to="/">
+          <Link to="/blog">
             <li
               onClick={(e) => {
                 setActiveTitle("blog");
@@ -91,7 +91,7 @@ const Navbar = ({activeTitle,setActiveTitle}) => {
             >
               Blog
             </li>
-          </Link> */}
+          </Link>
           <Link to="/contact">
             <li
               onClick={(e) => {

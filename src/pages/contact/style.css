@@ -4,6 +4,7 @@
 
 .contact-image>img{
     width: 100%;
+    max-height: 300px;
 }
 
 .contact-heading{
@@ -24,7 +25,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: navy;
+    background-color:var(--color-blue);
     display: flex;
     justify-content: center;
     align-items: center;

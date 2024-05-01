@@ -8,3 +8,25 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.footer a{
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer a::after{
+    content: '';
+    border-bottom: 1px solid var(--color-blue);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+
+.footer a:hover::after{
+    display: block;
+}

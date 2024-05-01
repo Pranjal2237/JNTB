@@ -193,7 +193,7 @@ const ContactForm = () => {
               <span
                 style={{
                   color: "#fff",
-                  backgroundColor: "black",
+                  backgroundColor: "var(--color-blue)",
                   padding: "5px",
                   fontWeight: "600",
                   display: "inline-block",

@@ -1,6 +1,6 @@
 :root{
     --color-green:#77AA43;
-    --color-blue:#2596be;
+    --color-blue:#a30d56;
 }
 
 .page-padding{
@@ -23,7 +23,7 @@
 }
 
 .scroll:hover{
-    background-color: #66b6d2;
+    background-color: #d2116f;
 }
 
 @keyframes lefttoright{

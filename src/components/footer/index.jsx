@@ -1,17 +1,26 @@
-import React from 'react'
-import './style.css'
+import React from "react";
+import "./style.css";
 
 const Footer = () => {
   return (
-    <div className='footer page-padding'>
+    <div className="footer page-padding">
       <div>
-      Copyrights @ 2025 <span style={{color:'var(--color-blue)'}}>JNTB IMPORT EXPORT</span>. All rights Reserved.
+        Copyrights @ 2025{" "}
+        <span style={{ color: "var(--color-blue)" }}>JNTB IMPORT EXPORT</span>.
+        All rights Reserved.
       </div>
-      <div>
-      Powered By JONAREN TECHNOLOGY. 
-      </div>
+      <span>
+        Powered By{" "}
+        <a
+          href="https://www.jntechno.com/"
+        >
+          {" "}
+          JONAREN TECHNOLOGY
+        </a>
+        .
+      </span>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

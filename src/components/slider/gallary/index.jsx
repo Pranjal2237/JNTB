@@ -42,7 +42,7 @@ function GallarySlider() {
       <Slider {...settings}>
         {gallarySlider.map((item,index)=>(
             <div className="slider-item">
-                <img src={item} alt="image" />
+                <img src={item} alt="image" style={{objectFit:'fill',height:'100%'}} />
             </div>
         ))}
       </Slider>

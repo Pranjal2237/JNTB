@@ -12,7 +12,7 @@ import Banner from "../../components/slider/banner";
 const Home = ({setActiveTitle}) => {
   return (
     <div className="home">
-      <div className="home-banner">
+      <div className="home-banner" >
         <img src={slider2} alt="banner" />
         <Banner />
       </div>
@@ -56,7 +56,7 @@ const Home = ({setActiveTitle}) => {
           </div>
           <div className="home_about-content">
             <h4>
-              JNTB EXPORT IMPORT is a leading export company, established in the year
+              <span style={{letterSpacing:'0.5px'}}>JNTB EXPORT IMPORT</span> is a leading export company, established in the year
               2023. The organization has been associated in the field of exports
               ever since;
             </h4>
@@ -94,7 +94,7 @@ const Home = ({setActiveTitle}) => {
         </div>
       </div>
       <div className="gallary">
-        <h3>Gallary</h3>
+        <h3>Gallery</h3>
         <GallarySlider />
       </div>
       <div className="home-footer page-padding">

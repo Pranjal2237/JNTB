@@ -19,7 +19,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLocationDot} color='white' />
               </div>
             <div>
-              <p style={{color:'var(--color-blue)',fontSize:'20px'}}>JNTB</p>
+              <p style={{color:'var(--color-blue)',fontSize:'20px',letterSpacing:'0.5px'}}>JNTB</p>
               <p style={{color:'var(--color-blue)',fontSize:'20px'}}>EXPORT IMPORT</p>
               <p>#1210,Tower B,ITHUM,</p>
               <p>Sector 62,NOIDA-201301</p>
@@ -31,7 +31,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faMobileButton} color='white' />
               </div>
               <div>
-                <p style={{color:'GrayText'}}>+91 9289 409329</p>
+                <p>+91 9289 409329</p>
               </div>
             </div>
             <div className='contact-address'>

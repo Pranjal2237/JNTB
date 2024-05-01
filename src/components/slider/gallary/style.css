@@ -1,7 +1,7 @@
 .slider-item{
     width: 100px;
-    padding: 20px;
     cursor: pointer;
+    height: 270px;
 }
 
 .slider-item img{

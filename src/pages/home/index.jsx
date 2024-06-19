@@ -102,6 +102,7 @@ const Home = ({setActiveTitle}) => {
           <div className="footer-item">
             <FontAwesomeIcon icon={faPhone} style={{fontSize:'20px'}} />
             <p>+91 9289 409329</p>
+            <p>+91 120-4788019</p>
           </div>
         <div className="footer-item">
           <FontAwesomeIcon icon={faEnvelope} style={{fontSize:'24px'}} />

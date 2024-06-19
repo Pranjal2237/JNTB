@@ -1,0 +1,50 @@
+.contact-image{
+    width: 100%;
+}
+
+.contact-image>img{
+    width: 100%;
+    max-height: 300px;
+}
+
+.certificates-box{
+    gap: 3.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    max-width: 170px;
+}
+
+.certificate>img{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    height: 100%;
+}
+
+.certificate>p{
+    text-align: center;
+    margin-top: 7px;
+}
+
+.padding-block{
+    padding-block: 3rem;
+}
+
+.opacity{
+    position: fixed;
+    inset: 0;
+    background-color: #333;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:767px) {
+    .certificates-box{
+        grid-template-columns: repeat(2,1fr);  
+    }
+}

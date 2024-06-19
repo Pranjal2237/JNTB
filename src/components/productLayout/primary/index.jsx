@@ -12,11 +12,10 @@ const Primary = ({ picture, heading, paragraph, contentArray }) => {
         <h1>{heading}</h1>
         {paragraph && <p>{paragraph}</p>}
         <div className="primary__product-container">
-          {contentArray.map(({ heading, paragraph, picture }, index) => (
+          {contentArray.map(({ heading, picture }, index) => (
             <ProductCard
               heading={heading}
               picture={picture}
-              paragraph={paragraph}
             />
           ))}
         </div>

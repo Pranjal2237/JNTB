@@ -150,4 +150,8 @@
     .navbar-logo{
         width: 160px;
     }
+
+    #products{
+        font-size: 20px;
+    }
 }

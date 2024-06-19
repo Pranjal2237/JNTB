@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, About, Contact, Enquiry,Product, Blog } from "./pages";
+import { Home, About, Contact, Enquiry,Product, Blog,Certificates } from "./pages";
 import { Navbar, Footer } from "./components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-
 
 const App = () => {
   const [pageViewY, setPageViewY] = useState(null);
@@ -24,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home setActiveTitle={setActiveTitle} />} />
           <Route path="/about" element={<About />} />
+          <Route path="/certificates" element={<Certificates />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/enquiry" element={<Enquiry />} />
           <Route path="/blog" element={<Blog />} />

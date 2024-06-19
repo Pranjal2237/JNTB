@@ -21,8 +21,8 @@ const Contact = () => {
             <div>
               <p style={{color:'var(--color-blue)',fontSize:'20px',letterSpacing:'0.5px'}}>JNTB</p>
               <p style={{color:'var(--color-blue)',fontSize:'20px'}}>EXPORT IMPORT</p>
-              <p>#1210,Tower B,ITHUM,</p>
-              <p>Sector 62,NOIDA-201301</p>
+              <p>#1236,Tower B,ITHUM,A-40</p>
+              <p>Sector 62,NOIDA-201309</p>
               <p></p>
             </div>
             </div>
@@ -32,6 +32,7 @@ const Contact = () => {
               </div>
               <div>
                 <p>+91 9289 409329</p>
+                <p>+91 120-4788019</p>
               </div>
             </div>
             <div className='contact-address'>

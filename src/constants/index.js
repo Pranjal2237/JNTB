@@ -17,7 +17,33 @@ import {
   dolls,
   dryfruits,
   freshfruits,
-  naturalhoney
+  naturalhoney,
+  aloevere,
+  amla,
+  lemongrass,
+  Honey,
+  HerbalHoney,
+  HoneyGeneral,
+  raisins,
+  ForestHoney,
+  Banana,
+  Lemon,
+  Mango,
+  SweetLime,
+  Guava,
+  Papaya,
+  Pomegranates,
+  woodapple,
+  limerind,
+  apricots,
+  figs,
+  basil,
+  cumin,
+  fssai,
+  iec,
+  udyam,
+  fieo,
+  apeada
 } from "../assets";
 
 export const subNav = [
@@ -47,40 +73,136 @@ const spiceProucts = [
   {
     heading: "Cardamom",
     picture: cardamom,
-    paragraph:
-      "The smell of the Cardamom is medicinal and has a hint of pine smoke. The flavor is almost peppery & eucalyptus like and very familiar to Grains of Paradise. We put forth our Cardamom which is used as taste enhancer in food dishes. We offer this cardamom in different sizes of packets at affordable price.",
   },
   {
     heading: "Chillie",
     picture: chillie,
-    paragraph:
-      "This is also called chilli pepper and belongs to the family of solanaceae. Chili pepper is native to country Mexico. Chilies contain certain amount of vitamin c and carotene. Research says that humans consuming this spicy chilli regularly are less likely to die of lifestyle disorder known as diabetes. We are doing servicing for Indian spices exporters in and from India.",
   },
   {
     heading: "Pepper",
     picture: pepper,
-    paragraph:
-      "This belongs to the family of Piperaceae. Usually, it is dried and used as a spice. Pepper is native to South India. It has got antibacterial properties. It is a source of manganese, vitamin-C and dietary fiber. Black pepper is a good anti-inflammatory agent.",
   },
   {
     heading: "Ginger",
     picture: ginger,
-    paragraph:
-      "Ginger fruit or ginger is used as spice. This is almost used as a folk medicine.An oral use of this spice is used to treat nausea. This is one of the flowering plants. It is one of the best ingredients in Indian society. It is to be said that young ginger rhizomes are more fleshy",
   },
   {
     heading: "Turmeric",
     picture: turmeric,
-    paragraph:
-      "This perennial plant belongs to ginger family. Normally, it is used in included in Indian cuisine for healthy benefits. It is widely used in cooking. Turmeric makes poor fabric dye. In the concept of Ayurveda, it is used to treat disorders like throat infection and common cold.",
   },
   {
     heading: "Coriander",
     picture: coriander,
-    paragraph:
-      "It is an annual herb. This is one of the plants in the earth with complete edible parts. This is native to south western Asia. Coriander leaves are used widely in cooking. The leaves of coriander seeds are rich in Vitamin A. Roasted coriander seeds are eaten as a snack.",
   },
+  {
+    heading:"Cumin",
+    picture:cumin
+  }
 ];
+
+const herbsProducts=[
+  {
+    heading:"Aloe vera",
+    picture:aloevere
+  },
+  {
+    heading:"Amla",
+    picture:amla
+  },
+  {
+    heading:"Holy basil",
+    picture:basil
+  },
+  {
+    heading:"Lemongrass",
+    picture:lemongrass
+  }
+]
+
+const dryFruitsProducts=[
+  {
+    heading:"Figs",
+    picture:figs
+  },
+  {
+    heading:"Dates",
+    picture:dates
+  },
+  {
+    heading:"Raisins",
+    picture:raisins
+  },
+  {
+    heading:"Apricots",
+    picture:apricots
+  },
+  {
+    heading:"Dry woodapple",
+    picture:woodapple
+  },
+  {
+    heading:"Dry lime rind",
+    picture:limerind
+  }
+]
+
+const freshFruitProducts=[
+  {
+    heading:"Bananas",
+    picture:Banana
+  },
+  {
+    heading:"Lemon",
+    picture:Lemon
+  },
+  {
+    heading:"Mangoes",
+    picture:Mango
+  },
+  {
+    heading:"Sweet lime",
+    picture:SweetLime
+  },
+  {
+    heading:"Oranges",
+    picture:orange
+  },
+  {
+    heading:"Apples",
+    picture:apple
+  },
+  {
+    heading:"Guavas",
+    picture:Guava
+  },
+  {
+    heading:"Papayas",
+    picture:Papaya
+  },
+  {
+    heading:"Pomegranates",
+    picture:Pomegranates
+  }
+]
+
+const naturalHoneyProducts=[
+  {
+    heading:"Organic wild honey",
+    picture:ForestHoney
+  },
+  {
+    heading:"NaturalKashmir honey",
+    picture:Honey
+  },
+  {
+    heading:"Herbal honey",
+    picture:HerbalHoney
+  },
+  {
+    heading:"Multi floral honey",
+    picture:HoneyGeneral
+  }
+]
 
 export const porductLayout = [
   {
@@ -92,25 +214,25 @@ export const porductLayout = [
   {
     heading: "Indian Herbs",
     picture: herbs,
-    contentArray: spiceProucts,
+    contentArray: herbsProducts,
     link: "indian-herbs",
   },
   {
     heading: "Dry Fruits",
     picture: dryfruits,
-    contentArray: spiceProucts,
+    contentArray: dryFruitsProducts,
     link: "dry-fruits",
   },
   {
     heading: "Fresh Fruits",
     picture: freshfruits,
-    contentArray: spiceProucts,
+    contentArray: freshFruitProducts,
     link: "fresh-fruits",
   },
   {
     heading: "Natural Honey",
     picture: naturalhoney,
-    contentArray: spiceProucts,
+    contentArray: naturalHoneyProducts,
     link: "natural-honey",
   },
 ];
@@ -129,7 +251,7 @@ export const productArr = [
     heading: "Dry fruits-Figs",
     paragraph:
       "Figs are the delightful fruits harvested from the ficus tree, belonging to the mulberry family. They boast a distinctive sweet flavor and offer a delightful soft and chewy texture.",
-    link: "indian-spices",
+    link: "dry-fruits",
   },
   {
     image: handicraft,
@@ -143,8 +265,31 @@ export const productArr = [
     heading: "Fresh fruits-Bananas",
     paragraph:
       "Assimilating a banana into your daily breakfast routine provides essential nutrients that support the healthy functioning of your heart.",
-    link: "indian-spices",
+    link: "fresh-fruits",
   },
 ];
+
+export const certificates=[
+  {
+    image:fssai,
+    name:'FSSAI'
+  },
+  {
+    image:iec,
+    name:'IEC'
+  },
+  {
+    image:udyam,
+    name:'UDYAM'
+  },
+  {
+    image:fieo,
+    name:'FIEO'
+  },
+  {
+    image:apeada,
+    name:'APEADA'
+  }
+]
 
 export const gallarySlider = [orange, apple, dates, dolls, coirfenders];

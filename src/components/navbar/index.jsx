@@ -82,6 +82,16 @@ const Navbar = ({activeTitle,setActiveTitle}) => {
                 }
               </ul>
             </li>
+            <Link to="/certificates">
+            <li
+              onClick={(e) => {
+                setActiveTitle("certificates");
+              }}
+              className={"certificates" === activeTitle && "active"}
+            >
+              Certificates
+            </li>
+          </Link>
           <Link to="/blog">
             <li
               onClick={(e) => {

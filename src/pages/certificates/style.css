@@ -16,8 +16,8 @@
 .certificate{
     display: flex;
     flex-direction: column;
-    max-height: 200px;
-    max-width: 170px;
+    max-height: 250px;
+    max-width: 220px;
 }
 
 .certificate>img{

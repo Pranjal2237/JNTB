@@ -5,7 +5,12 @@ import { certificates } from "../../constants";
 import CertificateSlider from "../../components/slider/certificates";
 
 const Certificates = () => {
-    const[open,setOpen]=useState(false)
+    const[open,setOpen]=useState(false);
+    const[content,setContent]=useState({image:"",name:''})
+    const Content=(image,name)=>{
+      setOpen(true);
+      setContent({image,name})
+    }
   return (
     <main style={{ marginBottom: "2.5rem" }}>
       <div className="contact-image">
@@ -14,7 +19,7 @@ const Certificates = () => {
       <h3 className="contact-heading page-padding">Certifications</h3>
       <div className="about-content page-padding">
         <p>
-          At Pisum, we prioritize impeccable hygiene, quality, and safety in
+          At JNTB EXPORT IMPORT, we prioritize impeccable hygiene, quality, and safety in
           food handling and export. By adhering to rigorous protocols and
           conducting thorough quality checks, we consistently meet international
           food safety standards. This dedication has earned us multiple
@@ -32,14 +37,14 @@ const Certificates = () => {
       <div className="page-padding certificates-box padding-block">
         {
             certificates.map(({image,name})=>(
-                <div className="certificate" onClick={()=>{setOpen(true)}}>
+                <div className="certificate" onClick={()=>{Content(image,name)}}>
                     <img src={image} />
                     <p>{name}</p>
                 </div>
             ))
         }
       </div>
-      {open && <CertificateSlider />}
+      {open && <CertificateSlider image={content.image} name={content.name} />}
       {open && <div className="opacity">
       </div>}
       {

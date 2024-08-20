@@ -1,7 +1,16 @@
 import React from "react";
 import "./style.css";
-import { mouce, quality, why, aboutLogo, facebook, twitter, slider2,instagram} from "../../assets";
-import { Link} from "react-router-dom";
+import {
+  mouce,
+  quality,
+  why,
+  aboutLogo,
+  facebook,
+  twitter,
+  slider2,
+  instagram,
+} from "../../assets";
+import { Link } from "react-router-dom";
 import { productArr } from "../../constants";
 import { Homecard } from "../../components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,10 +18,10 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import GallarySlider from "../../components/slider/gallary";
 import Banner from "../../components/slider/banner";
 
-const Home = ({setActiveTitle}) => {
+const Home = ({ setActiveTitle }) => {
   return (
     <div className="home">
-      <div className="home-banner" >
+      <div className="home-banner">
         <img src={slider2} alt="banner" />
         <Banner />
       </div>
@@ -24,7 +33,8 @@ const Home = ({setActiveTitle}) => {
           <div className="description-content">
             <h3>Quality</h3>
             <p>
-            Our product line boasts top-notch quality that perfectly aligns with our clients' needs and complies with international standards.
+              Our product line boasts top-notch quality that perfectly aligns
+              with our clients' needs and complies with international standards.
             </p>
           </div>
         </div>
@@ -35,16 +45,22 @@ const Home = ({setActiveTitle}) => {
           <div className="description-content">
             <h3>Why us</h3>
             <p>
-            Our leadership in the export and import sector stems from our dedication to cutting-edge standards, unwavering service reliability, and a relentless pursuit of excellence.
+              Our leadership in the export and import sector stems from our
+              dedication to cutting-edge standards, unwavering service
+              reliability, and a relentless pursuit of excellence.
             </p>
           </div>
         </div>
         <Link to="/enquiry">
-          <div onClick={()=>{setActiveTitle('enquiry')}}>
+          <div
+            onClick={() => {
+              setActiveTitle("enquiry");
+            }}
+          >
             <div className="description-image">
               <img src={mouce} alt="mouce" />
             </div>
-            <h2 style={{fontSize:'35px'}}>Quick Enquiry</h2>
+            <h2 style={{ fontSize: "35px" }}>Quick Enquiry</h2>
           </div>
         </Link>
       </div>
@@ -56,9 +72,10 @@ const Home = ({setActiveTitle}) => {
           </div>
           <div className="home_about-content">
             <h4>
-              <span style={{letterSpacing:'0.5px'}}>JNTB EXPORT IMPORT</span> is a leading export company, established in the year
-              2023. The organization has been associated in the field of exports
-              ever since;
+              <span style={{ letterSpacing: "0.5px" }}>JNTB EXPORT IMPORT</span>{" "}
+              is a leading export company, situated in northern India. The
+              organization has been associated in the field of exports ever
+              since;
             </h4>
             <p>
               Exporting Indian spices, nuts, vegetables, handicrafts and coir
@@ -75,7 +92,13 @@ const Home = ({setActiveTitle}) => {
               in India.
             </p>
             <Link to="/about">
-              <div onClick={()=>{setActiveTitle('about')}}>Read More</div>
+              <div
+                onClick={() => {
+                  setActiveTitle("about");
+                }}
+              >
+                Read More
+              </div>
             </Link>
           </div>
         </div>
@@ -100,19 +123,23 @@ const Home = ({setActiveTitle}) => {
       <div className="home-footer page-padding">
         <div className="footer-container">
           <div className="footer-item">
-            <FontAwesomeIcon icon={faPhone} style={{fontSize:'20px'}} />
+            <FontAwesomeIcon icon={faPhone} style={{ fontSize: "20px" }} />
             <p>+91 9289 409329</p>
             <p>+91 120-4788019</p>
           </div>
-        <div className="footer-item">
-          <FontAwesomeIcon icon={faEnvelope} style={{fontSize:'24px'}} />
-          <a href="mailto:info@jntbexim.com">info@jntbexim.com</a>
-        </div>
+          <div className="footer-item">
+            <FontAwesomeIcon icon={faEnvelope} style={{ fontSize: "24px" }} />
+            <a href="mailto:info@jntbexim.com">info@jntbexim.com</a>
+          </div>
         </div>
         <h3>FOLLOW US</h3>
         <div className="home_footer-media">
-        <a><img src={facebook} alt="image"/></a>
-        <a><img src={instagram} alt="image" /></a>
+          <a>
+            <img src={facebook} alt="image" />
+          </a>
+          <a>
+            <img src={instagram} alt="image" />
+          </a>
         </div>
       </div>
     </div>

@@ -43,7 +43,9 @@ import {
   iec,
   udyam,
   fieo,
-  apeada
+  apeada,
+  spice,
+  gst
 } from "../assets";
 
 export const subNav = [
@@ -288,7 +290,15 @@ export const certificates=[
   },
   {
     image:apeada,
-    name:'APEADA'
+    name:'APEDA'
+  },
+  {
+    image:spice,
+    name:'SPICE BOARD'
+  },
+  {
+    image:gst,
+    name:'GSTIN'
   }
 ]
 

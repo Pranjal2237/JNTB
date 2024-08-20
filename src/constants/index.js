@@ -45,10 +45,48 @@ import {
   fieo,
   apeada,
   spice,
-  gst
+  gst,
+  rye,
+  corn,
+  oats,
+  bajara,
+  rice,
+  wheat,
+  barley,
+  triticale,
+  fonio,
+  sorghum,
+  teff,
+  chickpeas,
+  urad,
+  wholeMasoo,
+  fieldBean,
+  beatenRice,
+  chanaDal,
+  blackGram,
+  moong,
+  redLentil,
+  puffedRice,
+  horseGram,
+  blackeyedBeans,
+  tur,
+  soyabean,
+  kidneyBeans,
+  peas,
+  mothBean,
+  grainBanner,
+  pulseBanner
 } from "../assets";
 
 export const subNav = [
+  {
+    item:"Grains and Cereal",
+    link:"grains-and-cereal"
+  },
+  {
+    item:"Pulses",
+    link:"pulses"
+  },
   {
     item: "Indian Spices",
     link: "indian-spices",
@@ -206,7 +244,141 @@ const naturalHoneyProducts=[
   }
 ]
 
+const grainProducts=[
+  {
+    heading:"Rye",
+    picture:rye
+  },
+  {
+    heading:"Corn / Maize",
+    picture:corn
+  },
+  {
+    heading:"Oats",
+    picture:oats
+  },
+  {
+    heading:"Millet / Bajra",
+    picture:bajara
+  },
+  {
+    heading:"Rice",
+    picture:rice
+  },
+  {
+    heading:"Wheat",
+    picture:wheat
+  },
+  {
+    heading:"Barley",
+    picture:barley
+  },
+  {
+    heading:"Triticale",
+    picture:triticale
+  },
+  {
+    heading:"Fonio",
+    picture:fonio
+  },
+  {
+    heading:"Sorghum / Jawari",
+    picture:sorghum
+  },
+  {
+    heading:"Teff",
+    picture:teff
+  }
+]
+
+const pulseProducts=[
+  {
+    heading:"Chickpeas / Garbanzo Beans",
+    picture:chickpeas
+  },
+  {
+    heading:"Peas",
+    picture:peas
+  },
+  {
+    heading:"Kidney beans",
+    picture:kidneyBeans
+  },
+  {
+    heading:"Soya bean",
+    picture:soyabean
+  },
+  {
+    heading:"Pigeon pea/Arhar/Tur",
+    picture:tur
+  },
+  {
+    heading:"Black-eyed beans / Cowpea",
+    picture:blackeyedBeans
+  },
+  {
+    heading:"Horse gram",
+    picture:horseGram
+  },
+  {
+    heading:"Puffed rice",
+    picture:puffedRice
+  },
+  {
+    heading:"Masoor Dal / Red Lentil",
+    picture:redLentil
+  },
+  {
+    heading:"Green gram / Mung bean",
+    picture:moong
+  },
+  {
+    heading:"Black gram",
+    picture:blackGram
+  },
+  {
+    heading:"Chana Dal",
+    picture:chanaDal
+  },
+  {
+    heading:"Beaten rice",
+    picture:beatenRice
+  },
+  {
+    heading:"Field beans",
+    picture:fieldBean
+  },
+  {
+    heading:"Urad Dal Split",
+    picture:urad
+  },
+  {
+    heading:"Turkish gram / Moth bean",
+    picture:mothBean
+  },
+  {
+    heading:"Whole Masoor",
+    picture:wholeMasoo
+  },
+  {
+    heading:"Urad Dal Gota",
+    picture:urad
+  }
+]
+
 export const porductLayout = [
+  {
+    heading:"Grains and Cereal",
+    picture:grainBanner,
+    contentArray:grainProducts,
+    link:"grains-and-cereal"
+  },
+  {
+    heading:"Pulses",
+    picture:pulseBanner,
+    contentArray:pulseProducts,
+    link:"pulses"
+  },
   {
     heading: "Indian Spices",
     picture: spices,

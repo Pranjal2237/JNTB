@@ -134,10 +134,10 @@ const Home = ({ setActiveTitle }) => {
         </div>
         <h3>FOLLOW US</h3>
         <div className="home_footer-media">
-          <a>
+          <a href="https://www.facebook.com/profile.php?id=61559627776852">
             <img src={facebook} alt="image" />
           </a>
-          <a>
+          <a href="https://www.instagram.com/jntb_exim/">
             <img src={instagram} alt="image" />
           </a>
         </div>

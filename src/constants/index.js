@@ -75,7 +75,48 @@ import {
   peas,
   mothBean,
   grainBanner,
-  pulseBanner
+  pulseBanner,
+  dehydratedFruits,
+  dehydratedVegies,
+  onion,
+  mushroom,
+  broccoli,
+  potato,
+  spinach,
+  cabbage,
+  brinjal,
+  cauliflower,
+  drumstick,
+  ladyFinger,
+  greenChille,
+  bottleGourd,
+  bitterGourd,
+  cucumber,
+  bellPaper,
+  ridgeGourd,
+  pumpkin,
+  lemon,
+  sweetPotato,
+  jerusalem,
+  radish,
+  beetroot,
+  carrot,
+  taro,
+  curryLeaves,
+  springOnion,
+  mint,
+  papdi,
+  methi,
+  cashew,
+  walnut,
+  almonds,
+  hazelnut,
+  pista,
+  yam,
+  purslane,
+  vegetableBanner,
+  dehydratedBanner,
+  foxNut
 } from "../assets";
 
 export const subNav = [
@@ -96,6 +137,10 @@ export const subNav = [
     link: "indian-herbs",
   },
   {
+    item:"Vegetables",
+    link:"vegetables"
+  },
+  {
     item: "Dry Fruits",
     link: "dry-fruits",
   },
@@ -107,6 +152,10 @@ export const subNav = [
     item: "Natural Honey",
     link: "natural-honey",
   },
+  {
+    item:"Dehydrated Products",
+    link:"dehydrated-products"
+  }
 ];
 
 const spiceProucts = [
@@ -160,6 +209,30 @@ const herbsProducts=[
 ]
 
 const dryFruitsProducts=[
+  {
+    heading:"Cashew",
+    picture:cashew
+  },
+  {
+    heading:"Walnut",
+    picture:walnut
+  },
+  {
+    heading:"almonds",
+    picture:almonds
+  },
+  {
+    heading:"hazelnut",
+    picture:hazelnut
+  },
+  {
+    heading:"Pistachio",
+    picture:pista
+  },
+  {
+    heading:"Fox Nut",
+    picture:foxNut
+  },
   {
     heading:"Figs",
     picture:figs
@@ -366,6 +439,149 @@ const pulseProducts=[
   }
 ]
 
+const vegetableProducts=[
+  {
+    heading:"Onion",
+    picture:onion
+  },
+  {
+    heading:"Mushroom",
+    picture:mushroom
+  },
+  {
+    heading:"Broccolie",
+    picture:broccoli
+  },
+  {
+    heading:"Potato",
+    picture:potato
+  },
+  {
+    heading:"Spinach / Palak",
+    picture:spinach
+  },
+  {
+    heading:"Cabbage",
+    picture:cabbage
+  },
+  {
+    heading:"Brinjal",
+    picture:brinjal
+  },
+  {
+    heading:"Cauliflower",
+    picture:cauliflower
+  },
+  {
+    heading:"Drum Stick",
+    picture:drumstick
+  },
+  {
+    heading:"Lady Finger",
+    picture:ladyFinger
+  },
+  {
+    heading:"Green Chilli",
+    picture:greenChille
+  },
+  {
+    heading:"Doodhi / Bottle Gourd / Lauki",
+    picture:bottleGourd
+  },
+  {
+    heading:"Bitter Gourd",
+    picture:bitterGourd
+  },
+  {
+    heading:"Cucumber",
+    picture:cucumber
+  },
+  {
+    heading:"Bell Pepper",
+    picture:bellPaper
+  },
+  {
+    heading:"Ridge Gourd / Ghosal",
+    picture:ridgeGourd
+  },
+  {
+    heading:"Pumpkin",
+    picture:pumpkin
+  },
+  {
+    heading:"Lemon",
+    picture:lemon
+  },
+  {
+    heading:"Sweet Potato",
+    picture:sweetPotato
+  },
+  {
+    heading:"Jerusalem",
+    picture:jerusalem
+  },
+  {
+    heading:"Radish",
+    picture:radish
+  },
+
+  {
+    heading:"Beetroot",
+    picture:beetroot
+  },
+  {
+    heading:"Carrots",
+    picture:carrot
+  },
+  {
+    heading:"Taro",
+    picture:taro
+  },
+  {
+    heading:"Curry Leaves",
+    picture:curryLeaves
+  },
+  {
+    heading:"Coriander",
+    picture:coriander
+  },
+  {
+    heading:"Spring Onion",
+    picture:springOnion
+  },
+  {
+    heading:"Mint",
+    picture:mint
+  },
+  {
+    heading:"Papdi / Hyacinth Bean",
+    picture:papdi
+  },
+  {
+    heading:"Methi / FenuGreek",
+    picture:methi
+  },
+  {
+    heading:"Common Purslane / Parippu Keerai",
+    picture:purslane
+  },
+  {
+    heading:"Elephane Yam / Suran",
+    picture:yam
+  }
+]
+
+const dehydratedProducts=[
+  {
+    heading:"dehydrated fruits",
+    picture:dehydratedFruits
+  },
+  {
+    heading:"dehydrated vegetables",
+    picture:dehydratedVegies
+  },
+]
+
 export const porductLayout = [
   {
     heading:"Grains and Cereal",
@@ -392,6 +608,12 @@ export const porductLayout = [
     link: "indian-herbs",
   },
   {
+    heading:"Vegetables",
+    picture:vegetableBanner,
+    contentArray:vegetableProducts,
+    link:"vegetables"
+  },
+  {
     heading: "Dry Fruits",
     picture: dryfruits,
     contentArray: dryFruitsProducts,
@@ -409,6 +631,12 @@ export const porductLayout = [
     contentArray: naturalHoneyProducts,
     link: "natural-honey",
   },
+  {
+    heading:"Dehydrated Products",
+    picture:dehydratedBanner,
+    contentArray:dehydratedProducts,
+    link:"dehydrated-products"
+  }
 ];
 
 export const herbLayout = {

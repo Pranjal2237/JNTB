@@ -1,19 +1,28 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { Primary } from '../../components';
-import { porductLayout } from '../../constants';
+import React from "react";
+import { useParams } from "react-router-dom";
+import { Primary } from "../../components";
+import { porductLayout } from "../../constants";
 
 const Product = () => {
-    const {product}=useParams();
+  const { product } = useParams();
   return (
     <div>
-        {porductLayout.map(({heading,picture,contentArray,link},index)=>(
+      {porductLayout.map(({ heading, picture, contentArray, link }, index) => (
+        <>
+          {link === product && (
             <>
-            {link===product &&<><Primary heading={heading} picture={picture} contentArray={contentArray} /></>}
+              <Primary
+                heading={heading}
+                picture={picture}
+                contentArray={contentArray}
+                product={product}
+              />
             </>
-        ))}
+          )}
+        </>
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;

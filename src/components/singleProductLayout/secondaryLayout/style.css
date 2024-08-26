@@ -1,0 +1,21 @@
+.secondary-varieties-container{
+    background-color: #edcfdd;
+    padding-block: 3rem;
+    margin-block: 5rem;
+}
+
+.secondary-varieties-container>h1{
+    text-align: center;
+}
+
+.secondary-varieties-container>p{
+    margin-block: 1.5rem;
+}
+
+.secondary-varieties-container h2{
+    margin-block: 1.5rem;
+}
+
+.outro{
+    margin-bottom: 2rem;
+}

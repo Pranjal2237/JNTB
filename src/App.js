@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, About, Contact, Enquiry,Product, Blog,Certificates } from "./pages";
+import { Home, About, Contact, Enquiry,Product, Blog,Certificates, SingleProduct } from "./pages";
 import { Navbar, Footer } from "./components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
@@ -33,6 +33,7 @@ const App = () => {
               <Product />
             }
           />
+          <Route path="/products/:product/:singleProduct" element={<SingleProduct />} />
         </Routes>
         <Footer />
       </Router>

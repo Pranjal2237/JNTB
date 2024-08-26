@@ -1,13 +1,14 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
-const ProductCard = ({heading,picture}) => {
+const ProductCard = ({heading,picture,link}) => {
   return (
     <div className="card">
       <div className="card-content">
-        <div className="card-image">
+        <Link to={link} className="card-image">
         <img src={picture} alt="card__image" />
-        </div>
+        </Link>
       <h3 className="card-heading">{heading}</h3>
       </div>
     </div>
